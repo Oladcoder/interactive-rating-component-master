@@ -1,0 +1,160 @@
+body{
+background-color: hsl(216, 12%, 8%);
+font-family: overpass;
+}
+@font-face {
+    font-family:overpass ;
+    src: url(Overpass-VariableFont_wght.ttf);
+}
+html {
+    font-size: 62.5%;
+  }
+
+
+.container{
+    background-color: hsl(216, 12%, 8%);
+display: flex;
+justify-content:center;
+align-items: center;
+width: 92vw;
+height: 92vh;  
+flex-direction: row;
+margin-top: 20px;
+
+}
+.ratingCard{
+    width: 350px;
+    background-color:#19202a;
+    height: 350px;
+    border-radius: 20px;
+    padding-inline: 10px;
+    padding-block: 10px;
+}
+.thanksPage{
+    width: 350px;
+    background-color:#19202a;
+    height: 350px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: content;
+    color: white;
+    padding-block: 16px;
+}
+.star{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+    background-color: #252d37;
+    height: 18px;
+    width: 17px;
+    padding-inline: 12px;
+    padding-block: 12px;
+
+}
+
+.text_container{
+    margin-left: 10px;
+    color: white;
+
+}
+p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-family: overpass;
+    color: #959eac;;
+}
+.numbers{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:20px
+    
+
+}
+.number{
+    height: 40px;
+    width: 40px;
+    background-color: #252d37;
+    font-size: 13px;
+    border-radius: 110%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+button{
+    margin-left: 17px;
+    width: 310px;
+    background-color: hsl(25, 97%, 53%);
+    height: 40px;
+    border-radius:20px;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.thanks_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+.color{
+    background-color:hsl(25, 97%, 53%) ;
+}
+.ThanksText{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.image{
+    margin-top: 24px;
+}
+h3{
+    font-weight: 700;
+    font-size: 2.1rem;
+}
+.number:hover{
+    background-color: hsl(217, 12%, 63%);
+}
+.thanks{
+    text-align: center;
+    padding-inline: 10px;
+    font-size: 15px;
+}
+.select{
+
+font-size:13px;
+color: hsl(25, 97%, 53%);
+}
+
+.selectedBar{
+    width: 135px;
+    background-color: #252d37;
+    height: 27px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
